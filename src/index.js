@@ -72,7 +72,7 @@ class App extends React.Component {
           </div>
           <div>
             mappingReact.json
-            <textarea>{JSON.stringify(mappingReact, null, 2)}</textarea>
+            <textarea defaultValue={JSON.stringify(mappingReact, null, 2)} />
           </div>
         </div>
       </div>
