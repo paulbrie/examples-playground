@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+textarea {
+  margin: 10px;
+}
+
+.inOut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inOut > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.inOut > div > textarea {
+  width: 500px;
+  height: 300px;
+}
+
+.json {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.json > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.json > div > textarea {
+  width: 300px;
+  height: 600px;
+}
